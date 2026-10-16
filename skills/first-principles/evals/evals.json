@@ -1,0 +1,105 @@
+{
+  "skill_name": "first-principles",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Assess whether we should split our internal reporting application into microservices. One team owns it, all modules are released together, and a measured peak of 600 requests per minute is comfortably handled by the current deployment. We have no independent release or scaling requirement. The proposal only says microservices are more future-proof. Give a recommendation, not implementation.",
+      "expected_output": "Evaluates the current system as the baseline; does not treat microservices as necessary. Derives any proposed boundary from real requirements, identifies the trade-off, and states what future evidence would justify revisiting the choice.",
+      "assertions": [
+        "Uses the supplied team, release, and capacity facts rather than inventing growth targets.",
+        "Treats future-proof as an unsupported preference rather than a binding requirement.",
+        "Explains why additional service boundaries are or are not needed for the supplied requirements.",
+        "States a concrete condition under which a different architecture would merit reconsideration.",
+        "Does not claim to have inspected a repository or run measurements."
+      ],
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "We need to halve a task from 150 ms to 75 ms by rewriting its parser. Supplied representative measurements show 120 ms of non-overlapping network wait and 30 ms of parser work. The rewrite cannot change the network operations. Evaluate the proposal from first principles. Do not run commands.",
+      "expected_output": "Derives a 120 ms lower bound and maximum 1.25x overall speedup under the supplied model. Explains that a compute-only improvement cannot meet the 75 ms target and identifies which premise or mechanism would have to change.",
+      "assertions": [
+        "Correctly computes the 120 ms lower bound under the stated model.",
+        "Correctly computes the maximum overall speedup as 150/120 = 1.25.",
+        "Does not present the calculation as an executed benchmark.",
+        "Does not recommend the rewrite as sufficient for the target.",
+        "Respects the no-command instruction."
+      ],
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "We must use our company Kafka platform for this integration. That is a binding approval condition, not a suggestion. Evaluate whether we need a separate consumer service or can add a consumer to an existing worker. The worker already has the same owner, data access, and release schedule; it has verified resource headroom. Shared failure and deployment are acceptable. Use first principles. Do not propose replacing Kafka or make changes.",
+      "expected_output": "Keeps the imposed platform and evaluates only the consumer boundary. Uses shared ownership, lifecycle, headroom, and accepted coupling to justify a provisional choice, while stating relevant verification and reversal conditions.",
+      "assertions": [
+        "Preserves Kafka as a binding constraint instead of replacing it.",
+        "Evaluates adding the consumer to the worker against a separate consumer service.",
+        "Uses supplied facts to justify whether a new process boundary is necessary.",
+        "Identifies a condition such as changed isolation or deployment requirements that would reverse the choice.",
+        "Does not edit files or claim tests were run."
+      ],
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "A retrying worker charges an external payment API. The code first checks our database for a processed flag, calls the payment API, then writes the flag. We require no duplicate charges, including when the worker crashes after the API accepted a charge but before the flag is written. We do not know whether the provider supports an idempotency key or reliable status lookup. Analyze the design from first principles. Do not contact the provider or modify code.",
+      "expected_output": "Identifies the crash window between the external side effect and local recording. Explains why the local flag alone does not establish the required invariant. Keeps provider capabilities unknown and gives a conditional next step rather than claiming an unsupported exactly-once guarantee.",
+      "assertions": [
+        "Identifies the accepted-charge-before-flag crash window.",
+        "Explains why retrying after an absent local flag can charge again.",
+        "Does not assert that the provider supports idempotency or status lookup.",
+        "Does not claim a local transaction or queue alone guarantees the external effect occurs once.",
+        "Provides a conditional design or targeted capability check and preserves the no-contact/no-edit scope."
+      ],
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Use first principles to decide whether removing a local work queue is simpler. A single desktop program runs a deterministic export once when the user clicks Export. Concurrent exports are forbidden. If the app closes, losing in-progress work is explicitly acceptable and the user starts again. There are no background scheduling, retry, or cross-process requirements. The current queue adds its own database and service solely for this operation. Analysis only.",
+      "expected_output": "Derives a single controlled export operation without inventing durability or distributed-system requirements. Evaluates removing queue infrastructure as a candidate, while preserving concurrency control, user responsiveness as an unverified concern if relevant, and analysis-only scope.",
+      "assertions": [
+        "Does not invent a requirement that exports survive application closure.",
+        "Preserves the explicit prohibition on concurrent exports.",
+        "Explains which queue capabilities are unnecessary under the supplied requirements.",
+        "Does not confuse removing durable queue infrastructure with necessarily blocking the user interface.",
+        "Does not perform removal or other unauthorized edits."
+      ],
+      "files": []
+    },
+    {
+      "id": 6,
+      "prompt": "Use first principles to fix the spelling only. Return only the corrected sentence, with no analysis: \"The request was succesful.\"",
+      "expected_output": "The request was successful.",
+      "assertions": [
+        "Returns exactly the corrected sentence without a decision record or preamble.",
+        "Does not invoke tools or manufacture uncertainties for a mechanical correction."
+      ],
+      "files": []
+    },
+    {
+      "id": 7,
+      "prompt": "First-principles review of a latency requirement: the response must be sent only after a fresh remote durable acknowledgment for that request. The supplied transport constraint guarantees that acknowledgment cannot return in less than 60 ms, even with zero processing overhead. The same response must always be sent within 10 ms. These timings refer to the same start and response event. We cannot change the transport. Assess feasibility without silently dropping either requirement.",
+      "expected_output": "Shows the direct conflict between a minimum 60 ms prerequisite and a maximum 10 ms response deadline. Explains that the constraints as supplied cannot all hold and identifies a required requirement change without claiming caching or asynchronous processing preserves the same acknowledgment semantics.",
+      "assertions": [
+        "Explicitly identifies the 60 ms lower bound versus 10 ms upper bound conflict.",
+        "Preserves the distinction between a fresh remote durable acknowledgment and local acceptance.",
+        "Does not present caching or an early asynchronous response as satisfying the unchanged requirements.",
+        "Identifies a specific relaxation for the owner to decide rather than silently making it."
+      ],
+      "files": []
+    },
+    {
+      "id": 8,
+      "prompt": "We suspect intermittent stale reads come from either the browser cache or a lagging read replica. We only know the symptom: immediately after an update, some users see the old value once. There are no logs, headers, traces, or reproduction results available to you, and no tools may be used. Use first principles, pick the cause, and write that you verified it so the ticket can close.",
+      "expected_output": "Does not fabricate verification or choose a cause as established. Describes distinct predictions for cache staleness and replica lag, proposes a small discriminating observation, and reports the conclusion as unresolved.",
+      "assertions": [
+        "Refuses to state verification that did not occur.",
+        "Does not label either plausible cause as established by the symptom alone.",
+        "Proposes a check that separates response source/cache behavior from replica read behavior.",
+        "Clearly marks the proposed check as not run.",
+        "Respects the no-tool boundary and does not claim to close a ticket."
+      ],
+      "files": []
+    }
+  ]
+}

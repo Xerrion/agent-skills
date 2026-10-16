@@ -10,7 +10,7 @@ Run this in your project to choose which skills and agents to install:
 npx skills add xerrion/agent-skills
 ```
 
-Install all four skills for Codex without prompts:
+Install all five skills for Codex without prompts:
 
 ```bash
 npx skills add xerrion/agent-skills --skill '*' --agent codex --yes
@@ -30,6 +30,7 @@ Add `--global` to install for your user account. The default installs in the cur
 | --- | --- |
 | [architecture-decision](skills/architecture-decision/SKILL.md) | Evaluating system boundaries, integration and data ownership, and other costly architecture choices. |
 | [engineering-philosophy](skills/engineering-philosophy/SKILL.md) | Applying engineering principles to implementation, review, research, writing, architecture, and UI work. |
+| [first-principles](skills/first-principles/SKILL.md) | Evaluating technical choices from evidence, constraints, and invariants. |
 | [jira-refinement](skills/jira-refinement/SKILL.md) | Creating and refining Jira Epics, Stories, Tasks, Bugs, Spikes, and Sub-tasks. |
 | [servicenow](skills/servicenow/SKILL.md) | Developing and troubleshooting ServiceNow scripts, queries, ACLs, APIs, and MCP calls. |
 
@@ -41,6 +42,7 @@ Each skill loads supporting references as its task requires. The ServiceNow skil
 skills/
   architecture-decision/SKILL.md
   engineering-philosophy/SKILL.md
+  first-principles/SKILL.md
   jira-refinement/SKILL.md
   servicenow/SKILL.md
 ```
