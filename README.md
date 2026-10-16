@@ -1,70 +1,56 @@
-# ServiceNow skills
+# Agent skills
 
-Agent instructions for ServiceNow development, troubleshooting, and API lookup. Install with the [Skills CLI](https://github.com/vercel-labs/skills).
+Reusable skills for coding agents, published in the [Skills CLI](https://github.com/vercel-labs/skills) layout.
 
 ## Install
 
-Install from GitHub:
+Run this in your project to choose which skills and agents to install:
 
 ```bash
-npx skills add xerrion/servicenow-skills --skill servicenow
+npx skills add xerrion/agent-skills
 ```
 
-Node.js and npm must be available. The CLI lets you select your coding agent and installation scope.
-
-Install for a specific agent, such as Codex or OpenCode:
+Install all four skills for Codex without prompts:
 
 ```bash
-npx skills add xerrion/servicenow-skills --skill servicenow --agent codex
-npx skills add xerrion/servicenow-skills --skill servicenow --agent opencode
+npx skills add xerrion/agent-skills --skill '*' --agent codex --yes
 ```
 
-Add `--global` to make the skill available across projects. Omit it to install in the current project.
+Install one skill by name:
 
-## Available skill
+```bash
+npx skills add xerrion/agent-skills --skill servicenow
+```
+
+Add `--global` to install for your user account. The default installs in the current project.
+
+## Skills
 
 | Skill | Use it for |
 | --- | --- |
-| [servicenow](skills/servicenow/SKILL.md) | Scripts, Business Rules, Client Scripts, GlideRecord, encoded queries, date handling, ACLs, API contracts, and MCP interaction. |
+| [architecture-decision](skills/architecture-decision/SKILL.md) | Evaluating system boundaries, integration and data ownership, and other costly architecture choices. |
+| [engineering-philosophy](skills/engineering-philosophy/SKILL.md) | Applying engineering principles to implementation, review, research, writing, architecture, and UI work. |
+| [jira-refinement](skills/jira-refinement/SKILL.md) | Creating and refining Jira Epics, Stories, Tasks, Bugs, Spikes, and Sub-tasks. |
+| [servicenow](skills/servicenow/SKILL.md) | Developing and troubleshooting ServiceNow scripts, queries, ACLs, APIs, and MCP calls. |
 
-The skill loads task-specific references as needed. Local API sources and type declarations are included in the installation. ServiceNow MCP tools require a separately configured connection.
+Each skill loads supporting references as its task requires. The ServiceNow skill includes local API sources and type declarations. ServiceNow MCP tools require a separately configured connection.
 
 ## Repository layout
 
 ```text
 skills/
-  servicenow/
-    SKILL.md
-    references/
-      sources/
-      types/
-      ...
+  architecture-decision/SKILL.md
+  engineering-philosophy/SKILL.md
+  jira-refinement/SKILL.md
+  servicenow/SKILL.md
 ```
 
-Each installable skill lives in `skills/<skill-name>/` and has a `SKILL.md` with `name` and `description` in YAML frontmatter. Keep supporting files inside that directory and use relative links so they work after installation.
+The Skills CLI discovers skills under `skills/<skill-name>/`. Each directory contains a `SKILL.md` with `name` and `description` in YAML frontmatter. Supporting files stay in that directory and use relative links so they work after installation.
 
-The Skills CLI discovers this layout directly. This repository does not need an npm package or a custom installer.
-
-## Try the local version
-
-From this repository's root directory:
+List available skills without installing them:
 
 ```bash
-npx skills add . --skill servicenow
+npx skills add xerrion/agent-skills --list
 ```
 
-List the skills available locally without installing them:
-
-```bash
-npx skills add . --list
-```
-
-Check the GitHub source:
-
-```bash
-npx skills add xerrion/servicenow-skills --list
-```
-
-## Bundled source notices
-
-ServiceNow reference materials include their existing [copyright and license notice](skills/servicenow/references/servicenow-docs-notice.txt) and [Apache 2.0 license text](skills/servicenow/references/apache-2.0.txt).
+ServiceNow reference materials include their [copyright and license notice](skills/servicenow/references/servicenow-docs-notice.txt) and [Apache 2.0 license text](skills/servicenow/references/apache-2.0.txt).

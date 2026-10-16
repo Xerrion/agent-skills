@@ -1,0 +1,53 @@
+{
+  "skill_name": "engineering-philosophy",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Act as a read-only code reviewer. Review this complete Python snippet: line 1 def first(xs):, line 2     return xs[0]. The documented contract accepts any list and returns None for an empty list. Return a concise finding and verdict using code-review. Do not edit, execute code, run tests, commit, or ask for a repository. Identify the philosophy guidance you actually read.",
+      "expected_output": "Reads Review and Code. Reports the empty-list contract violation as a supported BLOCKER and REQUEST_CHANGES using static evidence, without executing or importing implementation duties.",
+      "files": [],
+      "expectations": [
+        "Selects Review and Code without loading Implementation, Architecture, Frontend, Research, or Writing unnecessarily.",
+        "Reports IndexError on empty input instead of the required None at supplied snippet line 2.",
+        "Uses REQUEST_CHANGES and a supported BLOCKER without requiring a formal handoff.",
+        "Does not claim tests ran or perform editing, execution, commits, or publishing."
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Act as a software engineer. We intend to add a recoverable validation-error state to a form. The change touches validation logic, the UI, a public response shape shared across modules, and the user guide. Today, only explain which philosophy guidance applies and which checks implementation would need. Do not modify files or execute commands. No implementation or test results are supplied.",
+      "expected_output": "Reads Implementation, Code, Architecture, Frontend, and Writing for the proposed scope. Explains focused logic/contract checks and browser interaction checks as future work without assuming execution authority or loading unrelated review/research guidance.",
+      "files": [],
+      "expectations": [
+        "Selects Implementation, Code, Architecture, Frontend, and Writing for the described combined change.",
+        "Does not load Review or Research merely because related references link to them.",
+        "Names contract and validation checks plus browser checks for the recoverable UI state.",
+        "Respects response-only scope and does not claim implementation, test, or browser checks succeeded."
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Act as a researcher with no permission to edit files or inspect a caller repository. Answer using only these supplied excerpts from the fictional Courier SDK release notes. Version 2.0: automatic retries occur only for transport failures. Version 2.1: automatic retries also cover HTTP 503, up to two retries. Do these excerpts establish that HTTP 429 is retried in version 2.1? Explain what changed and what remains unknown. Do not browse. Identify the philosophy guidance you actually read.",
+      "expected_output": "Reads Research. Answers that the supplied excerpts establish added 503 retries but do not establish 429 behaviour. Attributes claims to supplied excerpts, names the missing 429 evidence, and avoids repository or implementation work.",
+      "files": [],
+      "expectations": [
+        "Selects Research without unrelated implementation, code, architecture, frontend, review, or writing guidance.",
+        "Accurately states the supplied version 2.1 change for HTTP 503 with up to two retries.",
+        "Treats HTTP 429 retry behaviour as unestablished, not as definitely supported or unsupported.",
+        "Does not fabricate source verification, browse, edit, or inspect a target repository."
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "Act as a documentation-only scribe. Rewrite this supplied sentence as one clear sentence, preserving uncertainty and meaning: The export may take up to ten minutes, and closing the browser does not cancel it. Return the sentence only. Do not edit files or execute anything. This is a prose rewrite, not a request to change the export feature.",
+      "expected_output": "Reads Writing without code/implementation/frontend duties. Returns only a sentence preserving may, the ten-minute upper bound, and the fact that closing the browser does not cancel the export.",
+      "files": [],
+      "expectations": [
+        "Selects Writing without loading unrelated philosophy references.",
+        "Preserves the uncertainty, ten-minute bound, and non-cancellation behaviour.",
+        "Returns only the requested sentence, without a philosophy report or implementation plan.",
+        "Does not edit files, execute commands, or claim verification beyond the supplied text."
+      ]
+    }
+  ]
+}
