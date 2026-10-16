@@ -1,0 +1,9 @@
+.DS_Store
+node_modules/
+
+# Local installations used to try the skills.
+/.agents/
+/.claude/
+/.codex/
+/.opencode/
+/skills-lock.json
