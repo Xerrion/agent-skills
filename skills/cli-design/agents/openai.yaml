@@ -1,0 +1,4 @@
+interface:
+  display_name: "CLI Design"
+  short_description: "Design and review portable command-line interfaces"
+  default_prompt: "Use $cli-design to design, implement, or review this command-line interface for people and automation."

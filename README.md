@@ -29,6 +29,7 @@ Add `--global` to install for your user account. The default installs in the cur
 | Skill                                                            | Use it for                                                                                                   |
 | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
 | [architecture-decision](skills/architecture-decision/SKILL.md)   | Evaluating system boundaries, integration and data ownership, and other costly architecture choices.         |
+| [cli-design](skills/cli-design/SKILL.md)                       | Designing and reviewing portable CLI interfaces for people, scripts, and CI workflows.                    |
 | [engineering-philosophy](skills/engineering-philosophy/SKILL.md) | Applying engineering principles to implementation, review, research, writing, architecture, and UI work.     |
 | [first-principles](skills/first-principles/SKILL.md)             | Evaluating technical choices from evidence, constraints, and invariants.                                     |
 | [jira-refinement](skills/jira-refinement/SKILL.md)               | Creating and refining Jira Epics, Stories, Tasks, Bugs, Spikes, and Sub-tasks.                               |
@@ -42,6 +43,7 @@ Each skill loads supporting references as its task requires. The ServiceNow skil
 ```text
 skills/
   architecture-decision/SKILL.md
+  cli-design/SKILL.md
   engineering-philosophy/SKILL.md
   first-principles/SKILL.md
   jira-refinement/SKILL.md
