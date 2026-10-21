@@ -1,0 +1,40 @@
+/* Native Figma 19525:1695. Heading and dismissal are absent by default. */
+.tv2-snackbar {
+  box-sizing: border-box;
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  width: 328px;
+  max-width: 100%;
+  padding: 12px;
+  border: 0;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px 0 var(--tv2-surface-effect-shadow);
+  background: var(--tv2-surface-elevation-float);
+  color: var(--tv2-content-primary);
+  font: 400 14px / 18px "TV2", Arial, sans-serif;
+}
+
+.tv2-snackbar__body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+
+.tv2-snackbar__message {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.tv2-snackbar__heading {
+  margin: 0;
+  font-size: var(--tv2-heading-small-font-size);
+  font-weight: var(--tv2-heading-small-font-weight);
+  font-style: var(--tv2-heading-small-font-style);
+  line-height: var(--tv2-heading-small-line-height);
+}
+
+/* Local adaptation permits a container narrower than the native min-width 328px. */
+.tv2-snackbar[hidden] { display: none; }

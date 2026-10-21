@@ -1,0 +1,30 @@
+{
+  "sizes": {
+    "semantics": [
+      {
+        "name": "teaser.gap",
+        "sm": "size.8",
+        "md": "size.12",
+        "lg": "size.16",
+        "tv": "size.40",
+        "appletv": "size.40"
+      },
+      {
+        "name": "deck.gap",
+        "sm": "size.32",
+        "md": "size.32",
+        "lg": "size.56",
+        "tv": "size.80",
+        "appletv": "size.80"
+      },
+        {
+        "name": "page.margin",
+        "sm": "size.16",
+        "md": "size.24",
+        "lg": "size.64",
+        "tv": "size.144",
+        "appletv": "size.80"
+      }
+    ]
+  }
+}

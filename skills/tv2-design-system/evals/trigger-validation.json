@@ -1,0 +1,34 @@
+[
+  {
+    "query": "Kan du rette afstande og tekststørrelser i den eksisterende TV2-app? Siden skal også fungere ved 1920px.",
+    "should_trigger": true
+  },
+  {
+    "query": "Sektionens fejlbesked på vores TV 2-side ser mærkelig ud. Brug de gemte designregler og behold Svelte.",
+    "should_trigger": true
+  },
+  {
+    "query": "Jeg har fået nye lokale målinger af TV 2-knappen. Sammenlign dem med skillens snapshot.",
+    "should_trigger": true
+  },
+  {
+    "query": "Lav en mobil TV 2-profilside med de korrekte checkbox- og input-komponenter, helt offline.",
+    "should_trigger": true
+  },
+  {
+    "query": "Find TV 2s arkitekturprincipper og vurder vores databaseservice. Der er intet frontend-design i opgaven.",
+    "should_trigger": false
+  },
+  {
+    "query": "Opdater SQL-forespørgslen bag TV 2-dashboards tal. Visningen og farverne skal være uændrede.",
+    "should_trigger": false
+  },
+  {
+    "query": "Oversæt teksten 'TV 2 supports dark mode' til dansk.",
+    "should_trigger": false
+  },
+  {
+    "query": "Lav en knap i DRs brandfarver med DRs fonte. Brug ikke TV 2-assets.",
+    "should_trigger": false
+  }
+]

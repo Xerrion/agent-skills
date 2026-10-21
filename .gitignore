@@ -7,3 +7,7 @@ node_modules/
 /.codex/
 /.opencode/
 /skills-lock.json
+
+# Python runtime caches.
+__pycache__/
+*.py[cod]

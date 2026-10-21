@@ -1,0 +1,42 @@
+/* Native default: Figma 2827:34302. Web baseline only; no automatic TV scaling. */
+.tv2-button {
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  height: 44px;
+  max-width: min(100%, 479px);
+  padding: 12px 24px;
+  border: 0;
+  border-radius: 99px;
+  background: var(--tv2-surface-inverted);
+  color: var(--tv2-content-inverted);
+  font: 500 18px / 22px "TV2", Arial, sans-serif;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+/* Native icon offset is 12px wide with a 20px glyph extending into the inset. */
+.tv2-button__icon {
+  display: inline-flex;
+  align-items: center;
+  flex: none;
+  width: 12px;
+  height: 20px;
+}
+
+/* Local web adaptation keeps long labels within the fixed 44px control. */
+.tv2-button__label {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Focus geometry is a local accessibility convention using the source token. */
+.tv2-button:focus-visible {
+  outline: 2px solid var(--tv2-stroke-focus-outline);
+  outline-offset: 2px;
+}

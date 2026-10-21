@@ -1,0 +1,2110 @@
+{
+  "fixture": {
+    "synthetic": true,
+    "purpose": "Simulate a button height change for maintenance evaluation; this is not a live Figma measurement."
+  },
+  "schemaVersion": 1,
+  "source": {
+    "fileKey": "cjU0zuiL2r8YXsGmnNxxy2",
+    "capturedOn": "2026-10-21",
+    "pageId": "2827:29110",
+    "pageName": "Button",
+    "kind": "native-component-measurements",
+    "unit": "Figma px",
+    "readOnly": true
+  },
+  "sets": [
+    {
+      "id": "2827:34301",
+      "name": "Button",
+      "description": "Bruges til at udløse forskellige funktioner/handlinger som f.eks. at afspille et program, bekræfte valg, bevæge sig fremad i en proces, indsende formularer etc.",
+      "defaultVariantId": "2827:34302",
+      "properties": {
+        "Label#182:3": {
+          "type": "TEXT",
+          "defaultValue": "Label"
+        },
+        "Show leading icon#182:4": {
+          "type": "BOOLEAN",
+          "defaultValue": false
+        },
+        "Show trailing icon#182:5": {
+          "type": "BOOLEAN",
+          "defaultValue": true
+        },
+        "Swap leading icon#212:61": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "22647:25611",
+          "preferredValues": [
+            {
+              "type": "COMPONENT_SET",
+              "key": "0f9fda027de4e699a7b2b3bb0075deb9676b14b7"
+            }
+          ]
+        },
+        "Swap trailing icon#212:80": {
+          "type": "INSTANCE_SWAP",
+          "defaultValue": "9281:632",
+          "preferredValues": [
+            {
+              "type": "COMPONENT",
+              "key": "95117ebae34d95a8b67ccc8eb53c43f004fedaaf"
+            }
+          ]
+        },
+        "On image": {
+          "type": "VARIANT",
+          "defaultValue": "False",
+          "variantOptions": [
+            "False",
+            "True"
+          ]
+        },
+        "Size": {
+          "type": "VARIANT",
+          "defaultValue": "Medium (default)",
+          "variantOptions": [
+            "Medium (default)",
+            "Small",
+            "X-Small"
+          ]
+        },
+        "Type": {
+          "type": "VARIANT",
+          "defaultValue": "Default ⚫️",
+          "variantOptions": [
+            "Default ⚫️",
+            "Brand 🔴",
+            "Commercial 🟢",
+            "Breaking 🟡"
+          ]
+        },
+        "Hieraki": {
+          "type": "VARIANT",
+          "defaultValue": "Primary",
+          "variantOptions": [
+            "Primary",
+            "Secondary",
+            "Tertiary"
+          ]
+        },
+        "State": {
+          "type": "VARIANT",
+          "defaultValue": "Default",
+          "variantOptions": [
+            "Default",
+            "Hover",
+            "Hover on image",
+            "Disabled"
+          ]
+        }
+      },
+      "metricColumns": [
+        "width",
+        "height",
+        "paddingTop",
+        "paddingRight",
+        "paddingBottom",
+        "paddingLeft",
+        "itemSpacing",
+        "cornerRadius"
+      ],
+      "variants": [
+        {
+          "id": "2827:34302",
+          "properties": {
+            "On image": "False",
+            "Size": "Medium (default)",
+            "Type": "Default ⚫️",
+            "Hieraki": "Primary",
+            "State": "Default"
+          },
+          "values": [
+            115,
+            48,
+            12,
+            24,
+            12,
+            24,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "7562:1466",
+          "properties": {
+            "On image": "False",
+            "Size": "Medium (default)",
+            "Type": "Brand 🔴",
+            "Hieraki": "Primary",
+            "State": "Default"
+          },
+          "values": [
+            115,
+            44,
+            12,
+            24,
+            12,
+            24,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "7562:1564",
+          "properties": {
+            "On image": "False",
+            "Size": "Medium (default)",
+            "Type": "Commercial 🟢",
+            "Hieraki": "Primary",
+            "State": "Default"
+          },
+          "values": [
+            115,
+            44,
+            12,
+            24,
+            12,
+            24,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "7562:1612",
+          "properties": {
+            "On image": "False",
+            "Size": "Medium (default)",
+            "Type": "Breaking 🟡",
+            "Hieraki": "Primary",
+            "State": "Default"
+          },
+          "values": [
+            115,
+            44,
+            12,
+            24,
+            12,
+            24,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "2827:34308",
+          "properties": {
+            "On image": "False",
+            "Size": "Medium (default)",
+            "Type": "Default ⚫️",
+            "Hieraki": "Primary",
+            "State": "Hover"
+          },
+          "values": [
+            115,
+            44,
+            12,
+            24,
+            12,
+            24,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "7562:1472",
+          "properties": {
+            "On image": "False",
+            "Size": "Medium (default)",
+            "Type": "Brand 🔴",
+            "Hieraki": "Primary",
+            "State": "Hover"
+          },
+          "values": [
+            115,
+            44,
+            12,
+            24,
+            12,
+            24,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "7562:1570",
+          "properties": {
+            "On image": "False",
+            "Size": "Medium (default)",
+            "Type": "Commercial 🟢",
+            "Hieraki": "Primary",
+            "State": "Hover"
+          },
+          "values": [
+            115,
+            44,
+            12,
+            24,
+            12,
+            24,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "7562:1642",
+          "properties": {
+            "On image": "False",
+            "Size": "Medium (default)",
+            "Type": "Breaking 🟡",
+            "Hieraki": "Primary",
+            "State": "Hover"
+          },
+          "values": [
+            115,
+            44,
+            12,
+            24,
+            12,
+            24,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "2827:34314",
+          "properties": {
+            "On image": "False",
+            "Size": "Medium (default)",
+            "Type": "Default ⚫️",
+            "Hieraki": "Primary",
+            "State": "Disabled"
+          },
+          "values": [
+            115,
+            44,
+            12,
+            24,
+            12,
+            24,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "22415:797",
+          "properties": {
+            "On image": "True",
+            "Size": "Medium (default)",
+            "Type": "Default ⚫️",
+            "Hieraki": "Primary",
+            "State": "Disabled"
+          },
+          "values": [
+            115,
+            44,
+            12,
+            24,
+            12,
+            24,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "7562:1478",
+          "properties": {
+            "On image": "False",
+            "Size": "Medium (default)",
+            "Type": "Brand 🔴",
+            "Hieraki": "Primary",
+            "State": "Disabled"
+          },
+          "values": [
+            115,
+            44,
+            12,
+            24,
+            12,
+            24,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "7562:1576",
+          "properties": {
+            "On image": "False",
+            "Size": "Medium (default)",
+            "Type": "Commercial 🟢",
+            "Hieraki": "Primary",
+            "State": "Disabled"
+          },
+          "values": [
+            115,
+            44,
+            12,
+            24,
+            12,
+            24,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "7562:1624",
+          "properties": {
+            "On image": "False",
+            "Size": "Medium (default)",
+            "Type": "Breaking 🟡",
+            "Hieraki": "Primary",
+            "State": "Disabled"
+          },
+          "values": [
+            115,
+            44,
+            12,
+            24,
+            12,
+            24,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "2827:34320",
+          "properties": {
+            "On image": "False",
+            "Size": "Medium (default)",
+            "Type": "Default ⚫️",
+            "Hieraki": "Secondary",
+            "State": "Disabled"
+          },
+          "values": [
+            115,
+            44,
+            12,
+            24,
+            12,
+            24,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "2827:34326",
+          "properties": {
+            "On image": "False",
+            "Size": "Medium (default)",
+            "Type": "Default ⚫️",
+            "Hieraki": "Tertiary",
+            "State": "Disabled"
+          },
+          "values": [
+            115,
+            44,
+            12,
+            24,
+            12,
+            24,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "2827:34332",
+          "properties": {
+            "On image": "False",
+            "Size": "Medium (default)",
+            "Type": "Default ⚫️",
+            "Hieraki": "Secondary",
+            "State": "Default"
+          },
+          "values": [
+            115,
+            44,
+            12,
+            24,
+            12,
+            24,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "2827:34344",
+          "properties": {
+            "On image": "False",
+            "Size": "Medium (default)",
+            "Type": "Default ⚫️",
+            "Hieraki": "Tertiary",
+            "State": "Default"
+          },
+          "values": [
+            115,
+            44,
+            12,
+            24,
+            12,
+            24,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "2827:34350",
+          "properties": {
+            "On image": "False",
+            "Size": "Medium (default)",
+            "Type": "Default ⚫️",
+            "Hieraki": "Tertiary",
+            "State": "Hover"
+          },
+          "values": [
+            115,
+            44,
+            12,
+            24,
+            12,
+            24,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "2827:34356",
+          "properties": {
+            "On image": "False",
+            "Size": "Medium (default)",
+            "Type": "Default ⚫️",
+            "Hieraki": "Secondary",
+            "State": "Hover"
+          },
+          "values": [
+            115,
+            44,
+            12,
+            24,
+            12,
+            24,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "2827:34362",
+          "properties": {
+            "On image": "False",
+            "Size": "Small",
+            "Type": "Default ⚫️",
+            "Hieraki": "Primary",
+            "State": "Default"
+          },
+          "values": [
+            89,
+            32,
+            8,
+            16,
+            8,
+            16,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "21239:2219",
+          "properties": {
+            "On image": "False",
+            "Size": "X-Small",
+            "Type": "Default ⚫️",
+            "Hieraki": "Primary",
+            "State": "Default"
+          },
+          "values": [
+            84,
+            24,
+            8,
+            16,
+            8,
+            16,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "7562:1484",
+          "properties": {
+            "On image": "False",
+            "Size": "Small",
+            "Type": "Brand 🔴",
+            "Hieraki": "Primary",
+            "State": "Default"
+          },
+          "values": [
+            89,
+            32,
+            8,
+            16,
+            8,
+            16,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "21239:2225",
+          "properties": {
+            "On image": "False",
+            "Size": "X-Small",
+            "Type": "Brand 🔴",
+            "Hieraki": "Primary",
+            "State": "Default"
+          },
+          "values": [
+            84,
+            24,
+            8,
+            16,
+            8,
+            16,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "7562:1582",
+          "properties": {
+            "On image": "False",
+            "Size": "Small",
+            "Type": "Commercial 🟢",
+            "Hieraki": "Primary",
+            "State": "Default"
+          },
+          "values": [
+            89,
+            32,
+            8,
+            16,
+            8,
+            16,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "21239:2231",
+          "properties": {
+            "On image": "False",
+            "Size": "X-Small",
+            "Type": "Commercial 🟢",
+            "Hieraki": "Primary",
+            "State": "Default"
+          },
+          "values": [
+            84,
+            24,
+            8,
+            16,
+            8,
+            16,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "7562:1630",
+          "properties": {
+            "On image": "False",
+            "Size": "Small",
+            "Type": "Breaking 🟡",
+            "Hieraki": "Primary",
+            "State": "Default"
+          },
+          "values": [
+            89,
+            32,
+            8,
+            16,
+            8,
+            16,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "21239:2237",
+          "properties": {
+            "On image": "False",
+            "Size": "X-Small",
+            "Type": "Breaking 🟡",
+            "Hieraki": "Primary",
+            "State": "Default"
+          },
+          "values": [
+            84,
+            24,
+            8,
+            16,
+            8,
+            16,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "2827:34368",
+          "properties": {
+            "On image": "False",
+            "Size": "Small",
+            "Type": "Default ⚫️",
+            "Hieraki": "Secondary",
+            "State": "Default"
+          },
+          "values": [
+            89,
+            32,
+            8,
+            16,
+            8,
+            16,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "21239:2243",
+          "properties": {
+            "On image": "False",
+            "Size": "X-Small",
+            "Type": "Default ⚫️",
+            "Hieraki": "Secondary",
+            "State": "Default"
+          },
+          "values": [
+            84,
+            24,
+            8,
+            16,
+            8,
+            16,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "2827:34374",
+          "properties": {
+            "On image": "False",
+            "Size": "Small",
+            "Type": "Default ⚫️",
+            "Hieraki": "Tertiary",
+            "State": "Default"
+          },
+          "values": [
+            89,
+            32,
+            8,
+            16,
+            8,
+            16,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "21239:2249",
+          "properties": {
+            "On image": "False",
+            "Size": "X-Small",
+            "Type": "Default ⚫️",
+            "Hieraki": "Tertiary",
+            "State": "Default"
+          },
+          "values": [
+            84,
+            24,
+            8,
+            16,
+            8,
+            16,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "2827:34380",
+          "properties": {
+            "On image": "False",
+            "Size": "Small",
+            "Type": "Default ⚫️",
+            "Hieraki": "Secondary",
+            "State": "Hover"
+          },
+          "values": [
+            89,
+            32,
+            8,
+            16,
+            8,
+            16,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "21239:2255",
+          "properties": {
+            "On image": "False",
+            "Size": "X-Small",
+            "Type": "Default ⚫️",
+            "Hieraki": "Secondary",
+            "State": "Hover"
+          },
+          "values": [
+            84,
+            24,
+            8,
+            16,
+            8,
+            16,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "2827:34392",
+          "properties": {
+            "On image": "False",
+            "Size": "Small",
+            "Type": "Default ⚫️",
+            "Hieraki": "Tertiary",
+            "State": "Hover"
+          },
+          "values": [
+            89,
+            32,
+            8,
+            16,
+            8,
+            16,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "21239:2261",
+          "properties": {
+            "On image": "False",
+            "Size": "X-Small",
+            "Type": "Default ⚫️",
+            "Hieraki": "Tertiary",
+            "State": "Hover"
+          },
+          "values": [
+            84,
+            24,
+            8,
+            16,
+            8,
+            16,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "2827:34398",
+          "properties": {
+            "On image": "False",
+            "Size": "Small",
+            "Type": "Default ⚫️",
+            "Hieraki": "Primary",
+            "State": "Hover"
+          },
+          "values": [
+            89,
+            32,
+            8,
+            16,
+            8,
+            16,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "21239:2267",
+          "properties": {
+            "On image": "False",
+            "Size": "X-Small",
+            "Type": "Default ⚫️",
+            "Hieraki": "Primary",
+            "State": "Hover"
+          },
+          "values": [
+            84,
+            24,
+            8,
+            16,
+            8,
+            16,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "7562:1490",
+          "properties": {
+            "On image": "False",
+            "Size": "Small",
+            "Type": "Brand 🔴",
+            "Hieraki": "Primary",
+            "State": "Hover"
+          },
+          "values": [
+            89,
+            32,
+            8,
+            16,
+            8,
+            16,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "21239:2273",
+          "properties": {
+            "On image": "False",
+            "Size": "X-Small",
+            "Type": "Brand 🔴",
+            "Hieraki": "Primary",
+            "State": "Hover"
+          },
+          "values": [
+            84,
+            24,
+            8,
+            16,
+            8,
+            16,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "7562:1588",
+          "properties": {
+            "On image": "False",
+            "Size": "Small",
+            "Type": "Commercial 🟢",
+            "Hieraki": "Primary",
+            "State": "Hover"
+          },
+          "values": [
+            89,
+            32,
+            8,
+            16,
+            8,
+            16,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "21239:2279",
+          "properties": {
+            "On image": "False",
+            "Size": "X-Small",
+            "Type": "Commercial 🟢",
+            "Hieraki": "Primary",
+            "State": "Hover"
+          },
+          "values": [
+            84,
+            24,
+            8,
+            16,
+            8,
+            16,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "7562:1636",
+          "properties": {
+            "On image": "False",
+            "Size": "Small",
+            "Type": "Breaking 🟡",
+            "Hieraki": "Primary",
+            "State": "Hover"
+          },
+          "values": [
+            89,
+            32,
+            8,
+            16,
+            8,
+            16,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "21239:2285",
+          "properties": {
+            "On image": "False",
+            "Size": "X-Small",
+            "Type": "Breaking 🟡",
+            "Hieraki": "Primary",
+            "State": "Hover"
+          },
+          "values": [
+            84,
+            24,
+            8,
+            16,
+            8,
+            16,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "2827:34404",
+          "properties": {
+            "On image": "False",
+            "Size": "Small",
+            "Type": "Default ⚫️",
+            "Hieraki": "Primary",
+            "State": "Disabled"
+          },
+          "values": [
+            89,
+            32,
+            8,
+            16,
+            8,
+            16,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "22415:1719",
+          "properties": {
+            "On image": "True",
+            "Size": "Small",
+            "Type": "Default ⚫️",
+            "Hieraki": "Primary",
+            "State": "Disabled"
+          },
+          "values": [
+            89,
+            32,
+            8,
+            16,
+            8,
+            16,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "21239:2291",
+          "properties": {
+            "On image": "False",
+            "Size": "X-Small",
+            "Type": "Default ⚫️",
+            "Hieraki": "Primary",
+            "State": "Disabled"
+          },
+          "values": [
+            84,
+            24,
+            8,
+            16,
+            8,
+            16,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "22415:1732",
+          "properties": {
+            "On image": "True",
+            "Size": "X-Small",
+            "Type": "Default ⚫️",
+            "Hieraki": "Primary",
+            "State": "Disabled"
+          },
+          "values": [
+            84,
+            24,
+            8,
+            16,
+            8,
+            16,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "7562:1496",
+          "properties": {
+            "On image": "False",
+            "Size": "Small",
+            "Type": "Brand 🔴",
+            "Hieraki": "Primary",
+            "State": "Disabled"
+          },
+          "values": [
+            89,
+            32,
+            8,
+            16,
+            8,
+            16,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "21239:2297",
+          "properties": {
+            "On image": "False",
+            "Size": "X-Small",
+            "Type": "Brand 🔴",
+            "Hieraki": "Primary",
+            "State": "Disabled"
+          },
+          "values": [
+            84,
+            24,
+            8,
+            16,
+            8,
+            16,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "7562:1594",
+          "properties": {
+            "On image": "False",
+            "Size": "Small",
+            "Type": "Commercial 🟢",
+            "Hieraki": "Primary",
+            "State": "Disabled"
+          },
+          "values": [
+            89,
+            32,
+            8,
+            16,
+            8,
+            16,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "21239:2303",
+          "properties": {
+            "On image": "False",
+            "Size": "X-Small",
+            "Type": "Commercial 🟢",
+            "Hieraki": "Primary",
+            "State": "Disabled"
+          },
+          "values": [
+            84,
+            24,
+            8,
+            16,
+            8,
+            16,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "7562:1618",
+          "properties": {
+            "On image": "False",
+            "Size": "Small",
+            "Type": "Breaking 🟡",
+            "Hieraki": "Primary",
+            "State": "Disabled"
+          },
+          "values": [
+            89,
+            32,
+            8,
+            16,
+            8,
+            16,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "21239:2309",
+          "properties": {
+            "On image": "False",
+            "Size": "X-Small",
+            "Type": "Breaking 🟡",
+            "Hieraki": "Primary",
+            "State": "Disabled"
+          },
+          "values": [
+            84,
+            24,
+            8,
+            16,
+            8,
+            16,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "2827:34410",
+          "properties": {
+            "On image": "False",
+            "Size": "Small",
+            "Type": "Default ⚫️",
+            "Hieraki": "Secondary",
+            "State": "Disabled"
+          },
+          "values": [
+            89,
+            32,
+            8,
+            16,
+            8,
+            16,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "21239:2315",
+          "properties": {
+            "On image": "False",
+            "Size": "X-Small",
+            "Type": "Default ⚫️",
+            "Hieraki": "Secondary",
+            "State": "Disabled"
+          },
+          "values": [
+            84,
+            24,
+            8,
+            16,
+            8,
+            16,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "2827:34416",
+          "properties": {
+            "On image": "False",
+            "Size": "Small",
+            "Type": "Default ⚫️",
+            "Hieraki": "Tertiary",
+            "State": "Disabled"
+          },
+          "values": [
+            89,
+            32,
+            8,
+            16,
+            8,
+            16,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "21239:2321",
+          "properties": {
+            "On image": "False",
+            "Size": "X-Small",
+            "Type": "Default ⚫️",
+            "Hieraki": "Tertiary",
+            "State": "Disabled"
+          },
+          "values": [
+            84,
+            24,
+            8,
+            16,
+            8,
+            16,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "2827:34929",
+          "properties": {
+            "On image": "True",
+            "Size": "Medium (default)",
+            "Type": "Default ⚫️",
+            "Hieraki": "Primary",
+            "State": "Default"
+          },
+          "values": [
+            115,
+            44,
+            12,
+            24,
+            12,
+            24,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "2827:34935",
+          "properties": {
+            "On image": "True",
+            "Size": "Medium (default)",
+            "Type": "Default ⚫️",
+            "Hieraki": "Primary",
+            "State": "Hover on image"
+          },
+          "values": [
+            115,
+            44,
+            12,
+            24,
+            12,
+            24,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "2827:34947",
+          "properties": {
+            "On image": "True",
+            "Size": "Small",
+            "Type": "Default ⚫️",
+            "Hieraki": "Primary",
+            "State": "Default"
+          },
+          "values": [
+            89,
+            32,
+            8,
+            16,
+            8,
+            16,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "21239:2327",
+          "properties": {
+            "On image": "True",
+            "Size": "X-Small",
+            "Type": "Default ⚫️",
+            "Hieraki": "Primary",
+            "State": "Default"
+          },
+          "values": [
+            84,
+            24,
+            8,
+            16,
+            8,
+            16,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "2827:34953",
+          "properties": {
+            "On image": "True",
+            "Size": "Small",
+            "Type": "Default ⚫️",
+            "Hieraki": "Primary",
+            "State": "Hover on image"
+          },
+          "values": [
+            89,
+            32,
+            8,
+            16,
+            8,
+            16,
+            8,
+            99
+          ]
+        },
+        {
+          "id": "21239:2333",
+          "properties": {
+            "On image": "True",
+            "Size": "X-Small",
+            "Type": "Default ⚫️",
+            "Hieraki": "Primary",
+            "State": "Hover on image"
+          },
+          "values": [
+            84,
+            24,
+            8,
+            16,
+            8,
+            16,
+            8,
+            99
+          ]
+        }
+      ],
+      "defaultTree": {
+        "id": "2827:34302",
+        "name": "On image=False, Size=Medium (default), Type=Default ⚫️, Hieraki=Primary, State=Default",
+        "type": "COMPONENT",
+        "visible": true,
+        "width": 115,
+        "height": 48,
+        "x": 20,
+        "y": 20,
+        "minWidth": null,
+        "maxWidth": 479,
+        "minHeight": null,
+        "maxHeight": null,
+        "layoutMode": "HORIZONTAL",
+        "layoutWrap": "NO_WRAP",
+        "layoutSizingHorizontal": "HUG",
+        "layoutSizingVertical": "FIXED",
+        "primaryAxisSizingMode": "AUTO",
+        "counterAxisSizingMode": "FIXED",
+        "primaryAxisAlignItems": "CENTER",
+        "counterAxisAlignItems": "CENTER",
+        "paddingTop": 12,
+        "paddingRight": 24,
+        "paddingBottom": 12,
+        "paddingLeft": 24,
+        "itemSpacing": 8,
+        "counterAxisSpacing": 0,
+        "cornerRadius": 99,
+        "topLeftRadius": 99,
+        "topRightRadius": 99,
+        "bottomLeftRadius": 99,
+        "bottomRightRadius": 99,
+        "fills": [
+          {
+            "type": "SOLID",
+            "visible": true,
+            "opacity": 1,
+            "blendMode": "NORMAL",
+            "color": {
+              "r": 0,
+              "g": 0.019607843831181526,
+              "b": 0.13725490868091583
+            },
+            "boundVariables": {
+              "color": {
+                "type": "VARIABLE_ALIAS",
+                "id": "VariableID:e866fbe4c8c0bcf781deeea6bcfecac869d52633/7597:6"
+              }
+            }
+          }
+        ],
+        "strokes": [],
+        "strokeWeight": 1,
+        "strokeAlign": "INSIDE",
+        "effects": [],
+        "opacity": 1,
+        "boundVariables": {
+          "itemSpacing": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:7247:129"
+          },
+          "paddingLeft": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:7247:133"
+          },
+          "paddingTop": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:7247:130"
+          },
+          "paddingRight": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:7247:133"
+          },
+          "paddingBottom": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:7247:130"
+          },
+          "height": {
+            "type": "VARIABLE_ALIAS",
+            "id": "VariableID:21231:4"
+          },
+          "fills": [
+            {
+              "type": "VARIABLE_ALIAS",
+              "id": "VariableID:e866fbe4c8c0bcf781deeea6bcfecac869d52633/7597:6"
+            }
+          ]
+        },
+        "explicitVariableModes": {},
+        "resolvedVariableModes": {
+          "VariableCollectionId:2482:991": "2482:0",
+          "VariableCollectionId:3921a6aa81f4ec03072c30a82587c64371b573db/2043:190": "2:0",
+          "VariableCollectionId:c9dd5b0bb11a45670d573856ac0db0d6f2fbc5a4/7507:84": "1:0"
+        },
+        "clipsContent": false,
+        "layoutPositioning": "AUTO",
+        "constraints": {
+          "horizontal": "MIN",
+          "vertical": "MIN"
+        },
+        "effectStyleId": "",
+        "fillStyleId": "",
+        "strokeStyleId": "",
+        "variantProperties": {
+          "On image": "False",
+          "Size": "Medium (default)",
+          "Type": "Default ⚫️",
+          "Hieraki": "Primary",
+          "State": "Default"
+        },
+        "children": [
+          {
+            "id": "2827:34303",
+            "name": "Icon offset",
+            "type": "FRAME",
+            "visible": false,
+            "width": 12,
+            "height": 20,
+            "x": 24,
+            "y": 12,
+            "minWidth": null,
+            "maxWidth": null,
+            "minHeight": null,
+            "maxHeight": null,
+            "layoutMode": "HORIZONTAL",
+            "layoutWrap": "NO_WRAP",
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "HUG",
+            "primaryAxisSizingMode": "FIXED",
+            "counterAxisSizingMode": "AUTO",
+            "primaryAxisAlignItems": "MAX",
+            "counterAxisAlignItems": "CENTER",
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "itemSpacing": 0,
+            "counterAxisSpacing": 0,
+            "cornerRadius": 0,
+            "topLeftRadius": 0,
+            "topRightRadius": 0,
+            "bottomLeftRadius": 0,
+            "bottomRightRadius": 0,
+            "fills": [],
+            "strokes": [],
+            "strokeWeight": 1,
+            "strokeAlign": "INSIDE",
+            "effects": [],
+            "opacity": 1,
+            "boundVariables": {},
+            "explicitVariableModes": {},
+            "resolvedVariableModes": {
+              "VariableCollectionId:3921a6aa81f4ec03072c30a82587c64371b573db/2043:190": "2:0",
+              "VariableCollectionId:c9dd5b0bb11a45670d573856ac0db0d6f2fbc5a4/7507:84": "1:0"
+            },
+            "clipsContent": false,
+            "layoutPositioning": "AUTO",
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "effectStyleId": "",
+            "fillStyleId": "",
+            "strokeStyleId": "",
+            "children": [
+              {
+                "id": "2827:34304",
+                "name": "play",
+                "type": "INSTANCE",
+                "visible": true,
+                "width": 20,
+                "height": 20,
+                "x": -8,
+                "y": 0,
+                "minWidth": null,
+                "maxWidth": null,
+                "minHeight": null,
+                "maxHeight": null,
+                "layoutMode": "NONE",
+                "layoutWrap": "NO_WRAP",
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED",
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisSizingMode": "FIXED",
+                "primaryAxisAlignItems": "MIN",
+                "counterAxisAlignItems": "MIN",
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "itemSpacing": 0,
+                "counterAxisSpacing": 0,
+                "cornerRadius": 0,
+                "topLeftRadius": 0,
+                "topRightRadius": 0,
+                "bottomLeftRadius": 0,
+                "bottomRightRadius": 0,
+                "fills": [],
+                "strokes": [],
+                "strokeWeight": 1,
+                "strokeAlign": "INSIDE",
+                "effects": [],
+                "opacity": 1,
+                "boundVariables": {},
+                "explicitVariableModes": {},
+                "resolvedVariableModes": {
+                  "VariableCollectionId:3921a6aa81f4ec03072c30a82587c64371b573db/2043:190": "2:0",
+                  "VariableCollectionId:c9dd5b0bb11a45670d573856ac0db0d6f2fbc5a4/7507:84": "1:0"
+                },
+                "clipsContent": true,
+                "layoutPositioning": "AUTO",
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "effectStyleId": "",
+                "fillStyleId": "",
+                "strokeStyleId": "",
+                "componentProperties": {
+                  "Filled": {
+                    "value": "True",
+                    "type": "VARIANT",
+                    "boundVariables": {}
+                  }
+                },
+                "children": [
+                  {
+                    "id": "I2827:34304;19531:1399",
+                    "name": "Icon",
+                    "type": "VECTOR",
+                    "visible": true,
+                    "width": 15,
+                    "height": 16.66666603088379,
+                    "x": 4.166666507720947,
+                    "y": 1.6666666269302368,
+                    "minWidth": null,
+                    "maxWidth": null,
+                    "minHeight": null,
+                    "maxHeight": null,
+                    "layoutSizingHorizontal": "FIXED",
+                    "layoutSizingVertical": "FIXED",
+                    "cornerRadius": 0,
+                    "fills": [
+                      {
+                        "type": "SOLID",
+                        "visible": true,
+                        "opacity": 1,
+                        "blendMode": "NORMAL",
+                        "color": {
+                          "r": 1,
+                          "g": 1,
+                          "b": 1
+                        },
+                        "boundVariables": {
+                          "color": {
+                            "type": "VARIABLE_ALIAS",
+                            "id": "VariableID:5a938bded8268e02c73c5abf55afbcaf3ebda315/7597:5"
+                          }
+                        }
+                      }
+                    ],
+                    "strokes": [],
+                    "strokeWeight": 1,
+                    "strokeAlign": "INSIDE",
+                    "effects": [],
+                    "opacity": 1,
+                    "boundVariables": {
+                      "fills": [
+                        {
+                          "type": "VARIABLE_ALIAS",
+                          "id": "VariableID:5a938bded8268e02c73c5abf55afbcaf3ebda315/7597:5"
+                        }
+                      ]
+                    },
+                    "explicitVariableModes": {},
+                    "resolvedVariableModes": {
+                      "VariableCollectionId:3921a6aa81f4ec03072c30a82587c64371b573db/2043:190": "2:0",
+                      "VariableCollectionId:c9dd5b0bb11a45670d573856ac0db0d6f2fbc5a4/7507:84": "1:0"
+                    },
+                    "layoutPositioning": "AUTO",
+                    "constraints": {
+                      "horizontal": "SCALE",
+                      "vertical": "SCALE"
+                    },
+                    "effectStyleId": "",
+                    "fillStyleId": "",
+                    "strokeStyleId": ""
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "2827:34305",
+            "name": "Button text",
+            "type": "TEXT",
+            "visible": true,
+            "width": 47,
+            "height": 22,
+            "x": 24,
+            "y": 11,
+            "minWidth": null,
+            "maxWidth": null,
+            "minHeight": null,
+            "maxHeight": null,
+            "layoutSizingHorizontal": "HUG",
+            "layoutSizingVertical": "HUG",
+            "fills": [
+              {
+                "type": "SOLID",
+                "visible": true,
+                "opacity": 1,
+                "blendMode": "NORMAL",
+                "color": {
+                  "r": 1,
+                  "g": 1,
+                  "b": 1
+                },
+                "boundVariables": {
+                  "color": {
+                    "type": "VARIABLE_ALIAS",
+                    "id": "VariableID:5a938bded8268e02c73c5abf55afbcaf3ebda315/7597:5"
+                  }
+                }
+              }
+            ],
+            "strokes": [],
+            "strokeWeight": 1,
+            "strokeAlign": "OUTSIDE",
+            "effects": [],
+            "opacity": 1,
+            "boundVariables": {
+              "fills": [
+                {
+                  "type": "VARIABLE_ALIAS",
+                  "id": "VariableID:5a938bded8268e02c73c5abf55afbcaf3ebda315/7597:5"
+                }
+              ]
+            },
+            "explicitVariableModes": {},
+            "resolvedVariableModes": {
+              "VariableCollectionId:3921a6aa81f4ec03072c30a82587c64371b573db/2043:190": "2:0",
+              "VariableCollectionId:c9dd5b0bb11a45670d573856ac0db0d6f2fbc5a4/7507:84": "1:0"
+            },
+            "layoutPositioning": "AUTO",
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "textStyleId": "S:64114ef0893469a3c9351725863632abef1d4d4e,",
+            "effectStyleId": "",
+            "fillStyleId": "",
+            "strokeStyleId": "",
+            "characters": "Label",
+            "fontName": {
+              "family": "TV 2",
+              "style": "Medium"
+            },
+            "fontSize": 18,
+            "fontWeight": 500,
+            "lineHeight": {
+              "unit": "PIXELS",
+              "value": 22
+            },
+            "letterSpacing": {
+              "unit": "PERCENT",
+              "value": 0
+            },
+            "textAutoResize": "WIDTH_AND_HEIGHT",
+            "textAlignHorizontal": "LEFT",
+            "textAlignVertical": "TOP"
+          },
+          {
+            "id": "2827:34306",
+            "name": "Icon offset",
+            "type": "FRAME",
+            "visible": true,
+            "width": 12,
+            "height": 20,
+            "x": 79,
+            "y": 12,
+            "minWidth": null,
+            "maxWidth": null,
+            "minHeight": null,
+            "maxHeight": null,
+            "layoutMode": "HORIZONTAL",
+            "layoutWrap": "NO_WRAP",
+            "layoutSizingHorizontal": "FIXED",
+            "layoutSizingVertical": "HUG",
+            "primaryAxisSizingMode": "FIXED",
+            "counterAxisSizingMode": "AUTO",
+            "primaryAxisAlignItems": "MIN",
+            "counterAxisAlignItems": "CENTER",
+            "paddingTop": 0,
+            "paddingRight": 0,
+            "paddingBottom": 0,
+            "paddingLeft": 0,
+            "itemSpacing": 0,
+            "counterAxisSpacing": 0,
+            "cornerRadius": 0,
+            "topLeftRadius": 0,
+            "topRightRadius": 0,
+            "bottomLeftRadius": 0,
+            "bottomRightRadius": 0,
+            "fills": [],
+            "strokes": [],
+            "strokeWeight": 1,
+            "strokeAlign": "INSIDE",
+            "effects": [],
+            "opacity": 1,
+            "boundVariables": {},
+            "explicitVariableModes": {},
+            "resolvedVariableModes": {
+              "VariableCollectionId:3921a6aa81f4ec03072c30a82587c64371b573db/2043:190": "2:0",
+              "VariableCollectionId:c9dd5b0bb11a45670d573856ac0db0d6f2fbc5a4/7507:84": "1:0"
+            },
+            "clipsContent": false,
+            "layoutPositioning": "AUTO",
+            "constraints": {
+              "horizontal": "MIN",
+              "vertical": "MIN"
+            },
+            "effectStyleId": "",
+            "fillStyleId": "",
+            "strokeStyleId": "",
+            "children": [
+              {
+                "id": "2827:34307",
+                "name": "arrow_right",
+                "type": "INSTANCE",
+                "visible": true,
+                "width": 20,
+                "height": 20,
+                "x": 0,
+                "y": 0,
+                "minWidth": null,
+                "maxWidth": null,
+                "minHeight": null,
+                "maxHeight": null,
+                "layoutMode": "NONE",
+                "layoutWrap": "NO_WRAP",
+                "layoutSizingHorizontal": "FIXED",
+                "layoutSizingVertical": "FIXED",
+                "primaryAxisSizingMode": "AUTO",
+                "counterAxisSizingMode": "FIXED",
+                "primaryAxisAlignItems": "MIN",
+                "counterAxisAlignItems": "MIN",
+                "paddingTop": 0,
+                "paddingRight": 0,
+                "paddingBottom": 0,
+                "paddingLeft": 0,
+                "itemSpacing": 0,
+                "counterAxisSpacing": 0,
+                "cornerRadius": 0,
+                "topLeftRadius": 0,
+                "topRightRadius": 0,
+                "bottomLeftRadius": 0,
+                "bottomRightRadius": 0,
+                "fills": [],
+                "strokes": [],
+                "strokeWeight": 1,
+                "strokeAlign": "INSIDE",
+                "effects": [],
+                "opacity": 1,
+                "boundVariables": {},
+                "explicitVariableModes": {},
+                "resolvedVariableModes": {
+                  "VariableCollectionId:3921a6aa81f4ec03072c30a82587c64371b573db/2043:190": "2:0",
+                  "VariableCollectionId:c9dd5b0bb11a45670d573856ac0db0d6f2fbc5a4/7507:84": "1:0"
+                },
+                "clipsContent": true,
+                "layoutPositioning": "AUTO",
+                "constraints": {
+                  "horizontal": "MIN",
+                  "vertical": "MIN"
+                },
+                "effectStyleId": "",
+                "fillStyleId": "",
+                "strokeStyleId": "",
+                "componentProperties": {},
+                "children": [
+                  {
+                    "id": "I2827:34307;21981:121",
+                    "name": "Icon",
+                    "type": "VECTOR",
+                    "visible": true,
+                    "width": 16.248046875,
+                    "height": 15.81507682800293,
+                    "x": 1.6695085763931274,
+                    "y": 2.0900399684906006,
+                    "minWidth": null,
+                    "maxWidth": null,
+                    "minHeight": null,
+                    "maxHeight": null,
+                    "layoutSizingHorizontal": "FIXED",
+                    "layoutSizingVertical": "FIXED",
+                    "cornerRadius": 0,
+                    "fills": [
+                      {
+                        "type": "SOLID",
+                        "visible": true,
+                        "opacity": 1,
+                        "blendMode": "NORMAL",
+                        "color": {
+                          "r": 1,
+                          "g": 1,
+                          "b": 1
+                        },
+                        "boundVariables": {
+                          "color": {
+                            "type": "VARIABLE_ALIAS",
+                            "id": "VariableID:5a938bded8268e02c73c5abf55afbcaf3ebda315/7597:5"
+                          }
+                        }
+                      }
+                    ],
+                    "strokes": [],
+                    "strokeWeight": 1,
+                    "strokeAlign": "INSIDE",
+                    "effects": [],
+                    "opacity": 1,
+                    "boundVariables": {
+                      "fills": [
+                        {
+                          "type": "VARIABLE_ALIAS",
+                          "id": "VariableID:5a938bded8268e02c73c5abf55afbcaf3ebda315/7597:5"
+                        }
+                      ]
+                    },
+                    "explicitVariableModes": {},
+                    "resolvedVariableModes": {
+                      "VariableCollectionId:3921a6aa81f4ec03072c30a82587c64371b573db/2043:190": "2:0",
+                      "VariableCollectionId:c9dd5b0bb11a45670d573856ac0db0d6f2fbc5a4/7507:84": "1:0"
+                    },
+                    "layoutPositioning": "AUTO",
+                    "constraints": {
+                      "horizontal": "SCALE",
+                      "vertical": "SCALE"
+                    },
+                    "effectStyleId": "",
+                    "fillStyleId": "",
+                    "strokeStyleId": ""
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "standalone": [],
+  "variables": {
+    "VariableID:e866fbe4c8c0bcf781deeea6bcfecac869d52633/7597:6": {
+      "id": "VariableID:e866fbe4c8c0bcf781deeea6bcfecac869d52633/7597:6",
+      "key": "e866fbe4c8c0bcf781deeea6bcfecac869d52633",
+      "name": "Surface/Inverted",
+      "collectionId": "VariableCollectionId:c9dd5b0bb11a45670d573856ac0db0d6f2fbc5a4/7507:84",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "1:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:5d351415edaba484026d8579ba3ba8d8a6c810a4/2317:95"
+        },
+        "1:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2fc8bea380860e313acda0e6c3b184c16b26faa6/2317:94"
+        }
+      }
+    },
+    "VariableID:7247:129": {
+      "id": "VariableID:7247:129",
+      "key": "0e7a6cb735dd1b67b1c95dfd727c14981f8f2e24",
+      "name": "Size/8",
+      "collectionId": "VariableCollectionId:2482:991",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "2482:0": 8,
+        "2664:0": 8,
+        "2664:1": 8
+      }
+    },
+    "VariableID:7247:133": {
+      "id": "VariableID:7247:133",
+      "key": "4d3ecc1b63ccbc4e38b25f578e1341e53f56d5ec",
+      "name": "Size/24",
+      "collectionId": "VariableCollectionId:2482:991",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "2482:0": 24,
+        "2664:0": 24,
+        "2664:1": 24
+      }
+    },
+    "VariableID:7247:130": {
+      "id": "VariableID:7247:130",
+      "key": "5b0502c74649382814e793851ff10449b1514a02",
+      "name": "Size/12",
+      "collectionId": "VariableCollectionId:2482:991",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "2482:0": 12,
+        "2664:0": 12,
+        "2664:1": 12
+      }
+    },
+    "VariableID:21231:4": {
+      "id": "VariableID:21231:4",
+      "key": "631b9b617005473c51914b4c27cb0208588ff01f",
+      "name": "Size/44",
+      "collectionId": "VariableCollectionId:2482:991",
+      "resolvedType": "FLOAT",
+      "valuesByMode": {
+        "2482:0": 44,
+        "2664:0": 44,
+        "2664:1": 44
+      }
+    },
+    "VariableID:5a938bded8268e02c73c5abf55afbcaf3ebda315/7597:5": {
+      "id": "VariableID:5a938bded8268e02c73c5abf55afbcaf3ebda315/7597:5",
+      "key": "5a938bded8268e02c73c5abf55afbcaf3ebda315",
+      "name": "Content/Inverted",
+      "collectionId": "VariableCollectionId:c9dd5b0bb11a45670d573856ac0db0d6f2fbc5a4/7507:84",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "1:0": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:2fc8bea380860e313acda0e6c3b184c16b26faa6/2317:94"
+        },
+        "1:1": {
+          "type": "VARIABLE_ALIAS",
+          "id": "VariableID:5d351415edaba484026d8579ba3ba8d8a6c810a4/2317:95"
+        }
+      }
+    },
+    "VariableID:5d351415edaba484026d8579ba3ba8d8a6c810a4/2317:95": {
+      "id": "VariableID:5d351415edaba484026d8579ba3ba8d8a6c810a4/2317:95",
+      "key": "5d351415edaba484026d8579ba3ba8d8a6c810a4",
+      "name": "midnight",
+      "collectionId": "VariableCollectionId:3921a6aa81f4ec03072c30a82587c64371b573db/2043:190",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2:0": {
+          "r": 0,
+          "g": 0.019607843831181526,
+          "b": 0.13725490868091583,
+          "a": 1
+        }
+      }
+    },
+    "VariableID:2fc8bea380860e313acda0e6c3b184c16b26faa6/2317:94": {
+      "id": "VariableID:2fc8bea380860e313acda0e6c3b184c16b26faa6/2317:94",
+      "key": "2fc8bea380860e313acda0e6c3b184c16b26faa6",
+      "name": "white",
+      "collectionId": "VariableCollectionId:3921a6aa81f4ec03072c30a82587c64371b573db/2043:190",
+      "resolvedType": "COLOR",
+      "valuesByMode": {
+        "2:0": {
+          "r": 1,
+          "g": 1,
+          "b": 1,
+          "a": 1
+        }
+      }
+    }
+  },
+  "collections": {
+    "VariableCollectionId:c9dd5b0bb11a45670d573856ac0db0d6f2fbc5a4/7507:84": {
+      "id": "VariableCollectionId:c9dd5b0bb11a45670d573856ac0db0d6f2fbc5a4/7507:84",
+      "key": "c9dd5b0bb11a45670d573856ac0db0d6f2fbc5a4",
+      "name": "Light/Dark",
+      "defaultModeId": "1:0",
+      "modes": [
+        {
+          "name": "Light",
+          "modeId": "1:0"
+        },
+        {
+          "name": "Dark",
+          "modeId": "1:1"
+        }
+      ]
+    },
+    "VariableCollectionId:2482:991": {
+      "id": "VariableCollectionId:2482:991",
+      "key": "1391e0ee7b32dd21eb7bea3d5ca1cc23d65d703c",
+      "name": "Device Size (DS)",
+      "defaultModeId": "2482:0",
+      "modes": [
+        {
+          "name": "SM (360)",
+          "modeId": "2482:0"
+        },
+        {
+          "name": "MD (840)",
+          "modeId": "2664:0"
+        },
+        {
+          "name": "LG (1440)",
+          "modeId": "2664:1"
+        }
+      ]
+    },
+    "VariableCollectionId:3921a6aa81f4ec03072c30a82587c64371b573db/2043:190": {
+      "id": "VariableCollectionId:3921a6aa81f4ec03072c30a82587c64371b573db/2043:190",
+      "key": "3921a6aa81f4ec03072c30a82587c64371b573db",
+      "name": "Global colors",
+      "defaultModeId": "2:0",
+      "modes": [
+        {
+          "name": "Mode 1",
+          "modeId": "2:0"
+        }
+      ]
+    }
+  },
+  "styles": {
+    "S:64114ef0893469a3c9351725863632abef1d4d4e,": {
+      "id": "S:64114ef0893469a3c9351725863632abef1d4d4e,",
+      "name": "Utility/Large/Medium",
+      "type": "TEXT",
+      "fontName": {
+        "family": "TV 2",
+        "style": "Medium"
+      },
+      "fontSize": 18,
+      "lineHeight": {
+        "unit": "PIXELS",
+        "value": 22
+      },
+      "letterSpacing": {
+        "unit": "PERCENT",
+        "value": 0
+      }
+    }
+  }
+}

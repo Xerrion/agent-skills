@@ -1,0 +1,19 @@
+/* Presentation of specimens is a local web-default application choice. */
+.specimens { padding-block: 24px; }
+.specimens > h1 { margin: 0; }
+.specimens__theme > h2, .specimens__case > h3 { margin: 0 0 12px; }
+.specimens > p { margin-block: 0; }
+.specimens__intro { color: var(--tv2-content-secondary); }
+.specimens__theme {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  min-width: 0;
+  padding: 24px;
+  background: var(--tv2-surface-secondary);
+  color: var(--tv2-content-primary);
+}
+.specimens__case { min-width: 0; }
+.specimens__narrow { max-width: 300px; }
+.specimens__links { margin: 0; padding-left: 20px; }
+.specimens__links a { color: var(--tv2-content-link-default); }

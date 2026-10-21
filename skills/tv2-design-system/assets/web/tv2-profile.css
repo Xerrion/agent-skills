@@ -1,0 +1,35 @@
+/* web-default: local application conventions, separate from Free product layouts. */
+body { margin: 0; }
+
+.tv2-page {
+  box-sizing: border-box;
+  min-height: 100vh;
+  background: var(--tv2-surface-primary);
+  color: var(--tv2-content-primary);
+  font-family: "TV2", Arial, sans-serif;
+  font-size: var(--tv2-body-medium-font-size);
+  font-weight: var(--tv2-body-medium-font-weight);
+  font-style: var(--tv2-body-medium-font-style);
+  line-height: var(--tv2-body-medium-line-height);
+}
+
+.tv2-container {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 1000px;
+  margin-inline: auto;
+  padding-inline: var(--tv2-size-24-step);
+}
+
+.tv2-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.tv2-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}

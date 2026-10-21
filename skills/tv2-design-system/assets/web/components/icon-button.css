@@ -1,0 +1,36 @@
+/* Native icon-only default: Figma 8576:2620, circle 44px, glyph 20px. */
+.tv2-icon-button {
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  border: 0;
+  border-radius: 99px;
+  background: var(--tv2-surface-inverted);
+  color: var(--tv2-content-inverted);
+  cursor: pointer;
+}
+
+.tv2-icon-button:focus-visible {
+  outline: 2px solid var(--tv2-stroke-focus-outline);
+  outline-offset: 2px;
+}
+
+/* Embedded dismiss convention: contain the native 18px glyph in 32px.
+   The captured nested circle is 34px inside its 32px wrapper. */
+.tv2-icon-button--dismiss {
+  width: 32px;
+  height: 32px;
+  padding: 7px;
+  background: var(--tv2-surface-transparency-weak);
+  color: var(--tv2-content-primary);
+}
+
+.tv2-icon-button--dismiss .tv2-icon {
+  width: 18px;
+  height: 18px;
+}

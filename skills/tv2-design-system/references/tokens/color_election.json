@@ -1,0 +1,233 @@
+{
+  "colors": {
+    "election": [
+      {
+        "default": {
+          "value": "neutral.400"
+        }
+      },
+      {
+        "fa": [
+          {
+            "name": "yes",
+            "value": "#2c966a"
+          },
+          {
+            "name": "no",
+            "value": "#ce1e1e"
+          }
+        ]
+      },
+      {
+        "fv": [
+          {
+            "name": "socialdemokratiet",
+            "letter": "a",
+            "value": "#e53838",
+            "description": "Socialdemokratiet"
+          },
+          {
+            "name": "radikalevenstre",
+            "letter": "b",
+            "value": "#78378c",
+            "description": "Radikale Venstre"
+          },
+          {
+            "name": "konservative",
+            "letter": "c",
+            "value": "#96b226",
+            "description": "Konservative"
+          },
+          {
+            "name": "nyeborgerlige",
+            "letter": "d",
+            "value": "#127b7f",
+            "description": "Nye borgerlige"
+          },
+          {
+            "name": "socialistiskfolkeparti",
+            "letter": "f",
+            "value": "#ef75ca",
+            "description": "Socialistisk Folkeparti"
+          },
+          {
+            "name": "borgernesparti",
+            "letter": "h",
+            "value": "#5fc8b4",
+            "description": "Borgernes Parti"
+          },
+          {
+            "name": "liberalalliance",
+            "letter": "i",
+            "value": "#1db9ce",
+            "description": "Liberal Alliance"
+          },
+          {
+            "name": "kristendemokraterne",
+            "letter": "k",
+            "value": "#8b8474",
+            "description": "Kristendemokraterne"
+          },
+          {
+            "name": "moderaterne",
+            "letter": "m",
+            "value": "#b48cd2",
+            "description": "Moderaterne"
+          },
+          {
+            "name": "danskfolkeparti",
+            "letter": "o",
+            "value": "#f9c153",
+            "description": "Dansk Folkeparti"
+          },
+          {
+            "name": "friegroenne",
+            "letter": "q",
+            "value": "#5abe82",
+            "description": "Frie Grønne"
+          },
+          {
+            "name": "venstre",
+            "letter": "v",
+            "value": "#205da5",
+            "description": "Venstre"
+          },
+          {
+            "name": "danmarksdemokraterne",
+            "letter": "æ",
+            "value": "#78a0e1",
+            "description": "Danmarksdemokraterne"
+          },
+          {
+            "name": "enhedslisten",
+            "letter": "ø",
+            "value": "#eb7341",
+            "description": "Enhedslisten"
+          },
+          {
+            "name": "alternativet",
+            "letter": "å",
+            "value": "#32913c",
+            "description": "Alternativet"
+          },
+          {
+            "name": "nordatlantiskemandater",
+            "letter": "northatlantic",
+            "value": "neutral.600",
+            "description": "Nordatlantiske mandater"
+          }
+        ]
+      },
+      {
+        "kv": [
+          {
+            "name": "socialdemokratiet",
+            "letter": "a",
+            "value": "#e53838",
+            "description": "Socialdemokratiet"
+          },
+          {
+            "name": "radikalevenstre",
+            "letter": "b",
+            "value": "#78378c",
+            "description": "Radikale Venstre"
+          },
+          {
+            "name": "konservative",
+            "letter": "c",
+            "value": "#96b226",
+            "description": "Konservative"
+          },
+          {
+            "name": "nyeborgerlige",
+            "letter": "d",
+            "value": "#127b7f",
+            "description": "Nye borgerlige"
+          },
+          {
+            "name": "socialistiskfolkeparti",
+            "letter": "f",
+            "value": "#ef75ca",
+            "description": "Socialistisk Folkeparti"
+          },
+          {
+            "name": "borgernesparti",
+            "letter": "h",
+            "value": "#5fc8b4",
+            "description": "Borgernes Parti"
+          },
+          {
+            "name": "liberalalliance",
+            "letter": "i",
+            "value": "#1db9ce",
+            "description": "Liberal Alliance"
+          },
+          {
+            "name": "kristendemokraterne",
+            "letter": "k",
+            "value": "#8b8474",
+            "description": "Kristendemokraterne"
+          },
+          {
+            "name": "moderaterne",
+            "letter": "m",
+            "value": "#b48cd2",
+            "description": "Moderaterne"
+          },
+          {
+            "name": "danskfolkeparti",
+            "letter": "o",
+            "value": "#f9c153",
+            "description": "Dansk Folkeparti"
+          },
+          {
+            "name": "friegroenne",
+            "letter": "q",
+            "value": "#5abe82",
+            "description": "Frie Grønne"
+          },
+          {
+            "name": "venstre",
+            "letter": "v",
+            "value": "#205da5",
+            "description": "Venstre"
+          },
+          {
+            "name": "danmarksdemokraterne",
+            "letter": "æ",
+            "value": "#78a0e1",
+            "description": "Danmarksdemokraterne"
+          },
+          {
+            "name": "enhedslisten",
+            "letter": "ø",
+            "value": "#eb7341",
+            "description": "Enhedslisten"
+          },
+          {
+            "name": "alternativet",
+            "letter": "å",
+            "value": "#32913c",
+            "description": "Alternativet"
+          }
+        ]
+      },
+      {
+        "us": [
+          {
+            "name": "democrats",
+            "letter": "d",
+            "value": "blue.500",
+            "description": "Democrats"
+          },
+          {
+            "name": "republicans",
+            "letter": "r",
+            "value": "red.500",
+            "description": "Republicans"
+          }
+        ]
+      }
+    ]
+  }
+}
