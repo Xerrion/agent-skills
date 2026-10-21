@@ -33,7 +33,6 @@ Add `--global` to install for your user account. The default installs in the cur
 | [first-principles](skills/first-principles/SKILL.md)             | Evaluating technical choices from evidence, constraints, and invariants.                                     |
 | [jira-refinement](skills/jira-refinement/SKILL.md)               | Creating and refining Jira Epics, Stories, Tasks, Bugs, Spikes, and Sub-tasks.                               |
 | [servicenow](skills/servicenow/SKILL.md)                         | Developing and troubleshooting ServiceNow scripts, queries, ACLs, APIs, and MCP calls.                       |
-| [tv2-design-system](skills/tv2-design-system/SKILL.md)           | Building and reviewing TV 2 interfaces and HTML emails with bundled tokens, fonts, and artwork.              |
 | [wow-addon](skills/wow-addon/SKILL.md)                           | Developing and reviewing WoW addons, including architecture, Lua patterns, events, frames, and API research. |
 
 Each skill loads supporting references as its task requires. The ServiceNow skill includes local API sources and type declarations. ServiceNow MCP tools require a separately configured connection.
@@ -47,7 +46,6 @@ skills/
   first-principles/SKILL.md
   jira-refinement/SKILL.md
   servicenow/SKILL.md
-  tv2-design-system/SKILL.md
   wow-addon/SKILL.md
 ```
 
