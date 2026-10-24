@@ -29,6 +29,7 @@ Add `--global` to install for your user account. The default installs in the cur
 | Skill                                                            | Use it for                                                                                                   |
 | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
 | [architecture-decision](skills/architecture-decision/SKILL.md)   | Evaluating system boundaries, integration and data ownership, and other costly architecture choices.         |
+| [dansk-teknisk-sprog](skills/dansk-teknisk-sprog/SKILL.md)       | Writing and revising clear, precise Danish technical text while preserving meaning.                         |
 | [engineering-philosophy](skills/engineering-philosophy/SKILL.md) | Applying engineering principles to implementation, review, research, writing, architecture, and UI work.     |
 | [first-principles](skills/first-principles/SKILL.md)             | Evaluating technical choices from evidence, constraints, and invariants.                                     |
 | [humanizer-da](skills/humanizer-da/SKILL.md)                     | Editing AI-styled Danish prose to sound natural while preserving facts, uncertainty, and the writer's voice. |
@@ -41,6 +42,7 @@ Each skill loads supporting references as its task requires. The WoW research to
 ```text
 skills/
   architecture-decision/SKILL.md
+  dansk-teknisk-sprog/SKILL.md
   engineering-philosophy/SKILL.md
   first-principles/SKILL.md
   humanizer-da/SKILL.md
